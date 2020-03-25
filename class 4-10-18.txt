@@ -1,0 +1,15 @@
+python os module
+
+->the functions os module provides aloow us to operate on underlying operating system tasks,irrespective of it being a windows paltform,macintosh,linux.
+1)os.name-this function gives the name of the os module,it imports.
+This differs based on the underline os
+currently it registers'POSIX' which is for macos,'OS2' which is for ibm mainframe os,'ce' which is for windows embedded compact os,'nt' which is for ur windows,'riscos' which is fro A or M chips,'JAVA' which is for jvm
+2)os.environ-environ is not a function,but a process parameter thru which we can access environment variables off the system
+3)os.execvp-it is one of the ways to run other commands ont he system.
+4)os.getuid
+5)os.rename-with pyhton os rename function we can easily rename a file  
+6)os.system-it allow us to run a command in python script just like you are running it in shell
+7)os.error
+8)os.getpid
+9)os.listdir-this function lists out the files and directories present in the current dir(cd)
+10)os.uname
